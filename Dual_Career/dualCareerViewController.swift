@@ -8,11 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class dualCareerViewController: UITableViewController {
+    
+    let itemArray = ["Career 1", "Career 2", "Personal"]
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
 
