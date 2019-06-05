@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="ZvY-Dj-MQ8" id="3TH-XA-X5J"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Dual Career " id="kQa-KF-EOg"/>
+                    <navigationItem key="navigationItem" title="Dual Career " id="kQa-KF-EOg">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="ld2-Bt-8YA">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="ZvY-Dj-MQ8" id="uUK-ia-ZmZ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T34-aP-0lD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

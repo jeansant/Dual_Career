@@ -43,7 +43,7 @@ class dualCareerViewController: UITableViewController {
         
         tableView.deselectRow(at: indexPath, animated: true)
   
-        // checkmark functionality
+        //MARK - checkmark functionality
         /*
         if tableView.cellForRow(at: indexPath)?.accessoryType == .checkmark {
             tableView.cellForRow(at: indexPath)?.accessoryType = .none
@@ -53,6 +53,28 @@ class dualCareerViewController: UITableViewController {
         }
  */
     }
-
+    
+    //MARK - Add new items functionality
+    
+    @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
+        
+        var textField = UITextField()
+        
+        let alert = UIAlertController(title: "Add Career", message: "", preferredStyle: .alert)
+        
+        let action = UIAlertAction(title: "Add Career", style: .default) { (action) in
+            // what will happen once the user clicks the add career button on UIAlert
+            print("Complete")
+        }
+        alert.addTextField { (alertTextField) in
+            alertTextField.placeholder = "Add a new career"
+            textField = alertTextField
+            
+        }
+        alert.addAction(action)
+        present(alert, animated: true, completion: nil)
+        
+    }
+    
 }
 
