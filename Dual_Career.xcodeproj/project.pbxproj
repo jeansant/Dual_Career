@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F772F6222C01C760023210C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F772F6122C01C760023210C /* Item.swift */; };
 		0FDC867B22A6076700E12C7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDC867A22A6076700E12C7D /* AppDelegate.swift */; };
 		0FDC867D22A6076700E12C7D /* dualCareerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDC867C22A6076700E12C7D /* dualCareerViewController.swift */; };
 		0FDC868322A6076700E12C7D /* Dual_Career.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FDC868122A6076700E12C7D /* Dual_Career.xcdatamodeld */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F772F6122C01C760023210C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		0FDC867722A6076700E12C7D /* Dual_Career.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dual_Career.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FDC867A22A6076700E12C7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FDC867C22A6076700E12C7D /* dualCareerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dualCareerViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F772F6322C01C7B0023210C /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F772F6122C01C760023210C /* Item.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		0F772F6422C01C850023210C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0FDC867C22A6076700E12C7D /* dualCareerViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0F772F6522C01CAF0023210C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0FDC867E22A6076700E12C7D /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0F772F6622C01CE70023210C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FDC868422A6076800E12C7D /* Assets.xcassets */,
+				0FDC868622A6076800E12C7D /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		0FDC866E22A6076700E12C7D = {
 			isa = PBXGroup;
 			children = (
@@ -57,10 +92,10 @@
 			isa = PBXGroup;
 			children = (
 				0FDC867A22A6076700E12C7D /* AppDelegate.swift */,
-				0FDC867C22A6076700E12C7D /* dualCareerViewController.swift */,
-				0FDC867E22A6076700E12C7D /* Main.storyboard */,
-				0FDC868422A6076800E12C7D /* Assets.xcassets */,
-				0FDC868622A6076800E12C7D /* LaunchScreen.storyboard */,
+				0F772F6422C01C850023210C /* Controllers */,
+				0F772F6322C01C7B0023210C /* Data Model */,
+				0F772F6522C01CAF0023210C /* Views */,
+				0F772F6622C01CE70023210C /* Supporting Files */,
 				0FDC868922A6076800E12C7D /* Info.plist */,
 				0FDC868122A6076700E12C7D /* Dual_Career.xcdatamodeld */,
 			);
@@ -138,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F772F6222C01C760023210C /* Item.swift in Sources */,
 				0FDC868322A6076700E12C7D /* Dual_Career.xcdatamodeld in Sources */,
 				0FDC867D22A6076700E12C7D /* dualCareerViewController.swift in Sources */,
 				0FDC867B22A6076700E12C7D /* AppDelegate.swift in Sources */,
